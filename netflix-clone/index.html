@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Netflix South Africa - Watch TV Shows Online, Watch Movies Online
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <img src="./assets/icons8-netflix-480.png" alt="image" />
+        <a href="/signIn.html" id="signin">Sign In</a>
+      </div>
+
+      <div class="middle">
+        <h1>Unlimited movies, TV shows, and more</h1>
+        <p class="watch">Watch anywhere. Cancel anytime.</p>
+        <p class="ready">
+          Ready to watch? Enter your email to create or restart your membership
+        </p>
+        <div class="email">
+          <input type="text" placeholder="Email address" />
+          <a href="#middlepart" id="email"
+            >Get Started <i class="fa-solid fa-greater-than"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div class="backimage">
+      <img
+        id="backimage"
+        src="https://assets.nflxext.com/ffe/siteui/vlv3/ce221d7a-8901-41d9-b726-3ea2efe3a650/79dc82bd-a57e-4ae8-99c7-0e475525b05d/ZA-en-20230703-popsignuptwoweeks-perspective_alpha_website_small.jpg"
+        srcset="
+          https://assets.nflxext.com/ffe/siteui/vlv3/ce221d7a-8901-41d9-b726-3ea2efe3a650/79dc82bd-a57e-4ae8-99c7-0e475525b05d/ZA-en-20230703-popsignuptwoweeks-perspective_alpha_website_small.jpg  1000w,
+          https://assets.nflxext.com/ffe/siteui/vlv3/ce221d7a-8901-41d9-b726-3ea2efe3a650/79dc82bd-a57e-4ae8-99c7-0e475525b05d/ZA-en-20230703-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w,
+          https://assets.nflxext.com/ffe/siteui/vlv3/ce221d7a-8901-41d9-b726-3ea2efe3a650/79dc82bd-a57e-4ae8-99c7-0e475525b05d/ZA-en-20230703-popsignuptwoweeks-perspective_alpha_website_large.jpg  1800w
+        "
+        alt="backimage"
+      />
+    </div>
+    <div class="middlepart" id="middlepart">
+      <div class="right">
+        <h2>Enjoy on your TV</h2>
+        <h5>
+          Watch on Smart TVs, Playstation, Xbox, Chromecast,<br />
+          Apple TV, Blu-ray players, and more.
+        </h5>
+      </div>
+      <div class="left">
+        <img
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+          id="pc"
+          alt="Computer"
+        />
+        <video id="vid" autoplay playsinline muted loop>
+          <source
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </div>
+    <div class="download-section">
+      <div class="left">
+        <img
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+          alt="Stranger"
+          id="stranger"
+        />
+        <div class="board">
+          <img
+            id="book"
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
+            alt=""
+          />
+          <div class="board-text">
+            <p class="title">Stranger Things</p>
+            <p class="title">Downloading...</p>
+          </div>
+          <div class="down"></div>
+        </div>
+      </div>
+      <div class="right2">
+        <h1>Download your shows to watch offline</h1>
+        <h2>Save your favourites easily and always have something to watch.</h2>
+      </div>
+    </div>
+    <div class="random-text">
+      <div class="this-text">
+        <h1>Watch everywhere</h1>
+        <h3>
+          Stream unlimited movies and TV <br />
+          shows on your phone, tablet, laptop, <br />
+          and TV.
+        </h3>
+      </div>
+    </div>
+    <div class="cartoon-kids">
+      <div class="side1">
+        <img
+          src="https://occ-0-6161-32.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55"
+          alt=""
+        />
+      </div>
+      <div class="side2">
+        <h1>
+            Create profiles for kids
+        </h1>
+        <h3>
+            Send kids on adventures with their favorite <br> characters in a space made just for them— <br>free with your membership.
+        </h3>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
